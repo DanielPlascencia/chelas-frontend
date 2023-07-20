@@ -127,6 +127,13 @@ const Registrarse = () => {
             value="REGISTRARME"
             className="bg-slate-900 dark:bg-slate-50 text-white dark:text-black uppercase font-bold rounded-full px-4 py-3 text-center"
           />
+
+          <link
+            to="/auth/registrarse"
+            className="m-2 uppercase font-bold text-blue-400 hover:text-blue-600"
+          >
+            Iniciar Sesión
+          </link>
         </form>
       </div>
     </div>
