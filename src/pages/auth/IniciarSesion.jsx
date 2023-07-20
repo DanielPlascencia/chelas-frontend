@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import consultaAxios from "../../../config/axios";
 import Spinner from "../../components/Spinner";
@@ -88,12 +88,12 @@ const IniciarSesion = () => {
             className="bg-slate-900 dark:bg-slate-50 text-white dark:text-black uppercase font-bold rounded-full px-4 py-3 text-center"
           />
 
-          <link
+          <Link
             to="/auth/registrarse"
             className="m-2 uppercase font-bold text-blue-400 hover:text-blue-600"
           >
             Registrarme
-          </link>
+          </Link>
         </form>
       </div>
     </div>
