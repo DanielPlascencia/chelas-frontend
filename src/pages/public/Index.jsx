@@ -18,7 +18,7 @@ const Index = () => {
     <Spinner />
   ) : (
     <div className="flex-1">
-      <h1 className="font-bold text-5xl mt-7 mb-16">TODAS LAS CHELAS</h1>
+      <h1 className="font-bold text-5xl mt-7 mb-16 px-5">TODAS LAS CHELAS</h1>
       <div className="flex flex-col gap-8 last-of-type:mb-10">
         {chelas && chelas.length > 0 ? (
           chelas.map((chela) => <MostrarChela key={chela._id} chela={chela} />)

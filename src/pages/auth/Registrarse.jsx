@@ -129,7 +129,7 @@ const Registrarse = () => {
           />
 
           <Link
-            to="/auth/registrarse"
+            to="/auth"
             className="m-2 uppercase font-bold text-blue-400 hover:text-blue-600"
           >
             Iniciar Sesión
