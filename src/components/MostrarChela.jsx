@@ -71,7 +71,7 @@ const MostrarChela = ({ chela }) => {
   };
 
   return (
-    <div className="px-5 py-3 border dark:border-slate-800 rounded-md shadow-md dark:shadow-slate-500 flex flex-wrap justify-between items-center gap-5">
+    <div className="w-full px-5 py-3 border dark:border-slate-800 rounded-md shadow-md dark:shadow-slate-500 flex flex-wrap justify-between items-center gap-5">
       <div className="flex-1  min-w-fit text-xl uppercase px-2">
         <p className="font-bold">
           nombre: <span className="capitalize font-light"> {nombre}</span>
